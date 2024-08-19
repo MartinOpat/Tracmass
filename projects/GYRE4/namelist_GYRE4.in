@@ -57,7 +57,7 @@
                                                         ! if ncgcm_unit = 5, then ngcm_step = 3 means 3 months
      ngcm_unit      = 4,                                ! units of ngcm
                                                         !
-     iter           = 100,                              ! number of subcycles between time levels                                                             ! stopped
+     iter           = 1,                              ! number of subcycles between time levels                                                             ! stopped
 /
 
 &INIT_START_DATE
@@ -82,7 +82,7 @@
      log_level    = 0
 
      ! Information of run time
-     intrun         = 359             ! number of time steps for run
+     intrun         = 10             ! number of time steps for run
 /
 
 &INIT_WRITE_TRAJ
@@ -122,12 +122,12 @@
           		      					     ! = 2 seed using file with start positions
 
      	! when seedtype = 1
-      ist1           = 250, 				    ! seed in box in range i = [ist1,ist2]
-      ist2           = 260, 				    ! 	       	      	    j = [jst1,jst2]
-      jst1           = 100, 				    ! 			                k = [kst1,kst2]
-      jst2           = 110,
-      kst1           = 5,
-      kst2           = 15,
+      ist1           =1,
+      ist2           =352,
+      jst1           =1,
+      jst2           =250,
+      kst1           =1,
+      kst2           =25,
       ! when seedtype = 2
       seeddir        = '',				     ! directory for seed files
       seedfile       = '',				     ! name of seed file
@@ -174,7 +174,7 @@
       !tracer0max = 4, 35.0,
 /
 
-&INIT_KILLZONES  ! Kill zones are currently off so this doesn't do anything
+&INIT_KILLZONES  ! Kill zones are either simplified or off so this doesn't do anything
       timax = 75000 ! time limit for traj [days]
 
       exitType = 1
