@@ -3,3 +3,22 @@ docs/_build
 docs/_static
 docs/_templates
 
+.venv
+.venv/
+venv
+
+_build
+_templates
+_static
+
+orca1_old/
+orca12/
+*.csv
+*.nc
+*.nc4
+*.mod
+runtracmass
+projects/GYRE/
+projects/GYRE2/
+projects/GYRE3/
+projects/mymodel/

@@ -3,11 +3,11 @@
 #================================================================
 
 # Project and case definition
-PROJECT	          = Theoretical
-CASE              = Theoretical
+PROJECT	          = GYRE4
+CASE              = GYRE4
 RUNFILE 	        = runtracmass
-ARCH              =
-NETCDFLIBS        = none
+ARCH              = x86_64
+NETCDFLIBS        = automatic-44
 #================================================================
 
 # Possible architectures:

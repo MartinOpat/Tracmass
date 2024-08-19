@@ -85,7 +85,7 @@
      														           ! = 3 Each particle reflects air/water mass/volume at seeding.
      														           !     set by partQuant in m3 or kg per particle
 
-      partquant      = 1,                  ! particles/gridcell or m3s-1/particle or m3/particle
+      partquant      = 10,                  ! particles/gridcell or m3s-1/particle or m3/particle
       loneparticle   = 0, 				         ! start only one trajectory for debugging
 
       seedtype       = 1,				           ! = 1 seed using ist,jst,kst (below)
