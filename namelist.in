@@ -57,7 +57,7 @@
                                                         ! if ncgcm_unit = 5, then ngcm_step = 3 means 3 months
      ngcm_unit      = 4,                                ! units of ngcm
                                                         !
-     iter           = 1,                              ! number of subcycles between time levels                                                             ! stopped
+     iter           = 10,                              ! number of subcycles between time levels                                                             ! stopped
 /
 
 &INIT_START_DATE
@@ -116,18 +116,18 @@
      														   ! = 3 Each particle reflects air/water mass/volume at seeding.
      														   !     set by partQuant in m3 or kg per particle
 
-      partquant      = 1,          ! particles/gridcell or m3s-1/particle or m3/particle
+      partquant      = 2,          ! particles/gridcell or m3s-1/particle or m3/particle
       loneparticle   = 0, 				 ! start only one trajectory for debugging
       seedtype       = 1,				   ! = 1 seed using ist,jst,kst (below)
           		      					     ! = 2 seed using file with start positions
 
      	! when seedtype = 1
       ist1           =1,
-      ist2           =352,
+      ist2           =500,
       jst1           =1,
       jst2           =250,
       kst1           =1,
-      kst2           =25,
+      kst2           =20,
       ! when seedtype = 2
       seeddir        = '',				     ! directory for seed files
       seedfile       = '',				     ! name of seed file
