@@ -1,0 +1,73 @@
+Measurement 1:
+	Command being timed: "./runtracmass"
+	User time (seconds): 704.22
+	System time (seconds): 19.09
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:03.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 668672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 327988
+	Voluntary context switches: 312
+	Involuntary context switches: 3365
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 45454480
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement 2:
+	Command being timed: "./runtracmass"
+	User time (seconds): 703.49
+	System time (seconds): 19.83
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:03.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 668672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 327991
+	Voluntary context switches: 347
+	Involuntary context switches: 3443
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 45454472
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement 3:
+	Command being timed: "./runtracmass"
+	User time (seconds): 701.11
+	System time (seconds): 20.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:02.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 668828
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 327990
+	Voluntary context switches: 2268
+	Involuntary context switches: 3486
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 45454400
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of steps: 1676
