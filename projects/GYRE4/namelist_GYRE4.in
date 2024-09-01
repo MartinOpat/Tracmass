@@ -86,7 +86,7 @@
 /
 
 &INIT_WRITE_TRAJ
-     write_frec    = 1     ! 1 = write at time intervals of gcm datasets (each ints)
+     write_frec    = 4     ! 1 = write at time intervals of gcm datasets (each ints)
                            ! 2 = write at each time iteration
                            ! 3 = write each spatial grid-crossing
                            ! 4 = write all the time steps
@@ -106,7 +106,7 @@
       isec           = 1,				   ! = 1 start on zonal cell wall
           		      					     ! = 2 start on meridional cell wall
      							                 ! = 3 start on vertical wall
-      idir           = -1, 				 ! = 1 start only when flux > 0
+      idir           = 1, 				 ! = 1 start only when flux > 0
           		      					     ! = -1      only when flux < 0
      	nqua           = 1,					 ! number of trajectories can be set by
      														   ! = 1 constant number of particles in all seeding cells
@@ -116,18 +116,18 @@
      														   ! = 3 Each particle reflects air/water mass/volume at seeding.
      														   !     set by partQuant in m3 or kg per particle
 
-      partquant      = 2,          ! particles/gridcell or m3s-1/particle or m3/particle
+      partquant      = 7500,          ! particles/gridcell or m3s-1/particle or m3/particle
       loneparticle   = 0, 				 ! start only one trajectory for debugging
       seedtype       = 1,				   ! = 1 seed using ist,jst,kst (below)
           		      					     ! = 2 seed using file with start positions
 
      	! when seedtype = 1
-      ist1           =1,
-      ist2           =500,
-      jst1           =1,
-      jst2           =250,
-      kst1           =1,
-      kst2           =20,
+      ist1           =250,
+      ist2           =250,
+      jst1           =150,
+      jst2           =150,
+      kst1           =12,
+      kst2           =12,
       ! when seedtype = 2
       seeddir        = '',				     ! directory for seed files
       seedfile       = '',				     ! name of seed file
@@ -177,7 +177,7 @@
 &INIT_KILLZONES  ! Kill zones are either simplified or off so this doesn't do anything
       timax = 75000 ! time limit for traj [days]
 
-      exitType = 1
+      exitType = 0
       ! If exitType = 1: killing zone defined by a box
       ! IMPORTANT -> The maximum number of boxes than can be defined are 10
       ! ienw,iene are western and eastern i indices of killzone
@@ -188,10 +188,10 @@
       ! jenn = 300,  470,
       ! sets up two killzones, the first i = [0,100], j = [200,300]
       ! the other i = [500,1000], j = [450,470]
-      ienw           =  220, 220,	       ! west indices of killzones
-      iene           =  310, 310,   	     ! east indices of killzones
-      jens           =  95, 215,         ! south indices of killzones
-      jenn           =  95, 215,         ! north indices of killzones
+      ! ienw           =  220, 220,	       ! west indices of killzones
+      ! iene           =  310, 310,   	     ! east indices of killzones
+      ! jens           =  95, 215,         ! south indices of killzones
+      ! jenn           =  95, 215,         ! north indices of killzones
 
       ! If exitType = 2: killing zone defined by tracer value
       ! Tracerchoice defines which tracer is used for the killing zone

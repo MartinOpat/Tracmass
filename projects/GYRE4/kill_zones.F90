@@ -20,13 +20,13 @@ SUBROUTINE kill_zones
     SELECT CASE(exitType)
   
     CASE(1)  ! Geographical boundaries
-        DO nexit = 1, 10
-           IF(ienw(nexit) <= x1 .AND. x1 <= iene(nexit) .AND. &
-                jens(nexit) <= y1 .AND. y1 <= jenn(nexit) ) THEN
-                uvel(x1, y1, :) = 0.0   ! Setting u velocity to zero
-                vvel(x1, y1, :) = 0.0   ! Setting v velocity to zero
-           END IF
-        END DO
+        ! DO nexit = 1, 10
+        !    IF(ienw(nexit) <= x1 .AND. x1 <= iene(nexit) .AND. &
+        !         jens(nexit) <= y1 .AND. y1 <= jenn(nexit) ) THEN
+        !         uvel(x1, y1, :) = 0.0   ! Setting u velocity to zero
+        !         vvel(x1, y1, :) = 0.0   ! Setting v velocity to zero
+        !    END IF
+        ! END DO
   
     CASE(2)  ! 
 
