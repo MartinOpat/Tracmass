@@ -1,22 +1,22 @@
 Measurement 1:
 	Command being timed: "./runtracmass"
-	User time (seconds): 2.29
-	System time (seconds): 0.53
-	Percent of CPU this job got: 92%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.04
+	User time (seconds): 4228.91
+	System time (seconds): 1.01
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:10:30
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 633760
+	Maximum resident set size (kbytes): 1551744
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 75
-	Minor (reclaiming a frame) page faults: 335653
-	Voluntary context switches: 2387
-	Involuntary context switches: 970
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 565131
+	Voluntary context switches: 8
+	Involuntary context switches: 41930
 	Swaps: 0
-	File system inputs: 1599576
-	File system outputs: 224
+	File system inputs: 0
+	File system outputs: 712920
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -24,23 +24,23 @@ Measurement 1:
 	Exit status: 0
 Measurement 2:
 	Command being timed: "./runtracmass"
-	User time (seconds): 2.34
-	System time (seconds): 0.40
-	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.79
+	User time (seconds): 4222.17
+	System time (seconds): 0.95
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:10:23
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 634204
+	Maximum resident set size (kbytes): 1552096
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 335689
-	Voluntary context switches: 7
-	Involuntary context switches: 1990
+	Minor (reclaiming a frame) page faults: 565131
+	Voluntary context switches: 8
+	Involuntary context switches: 30356
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 224
+	File system outputs: 712920
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -48,23 +48,23 @@ Measurement 2:
 	Exit status: 0
 Measurement 3:
 	Command being timed: "./runtracmass"
-	User time (seconds): 2.21
-	System time (seconds): 0.40
+	User time (seconds): 4224.16
+	System time (seconds): 0.92
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.61
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:10:25
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 633892
+	Maximum resident set size (kbytes): 1551708
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 335692
-	Voluntary context switches: 7
-	Involuntary context switches: 14
+	Minor (reclaiming a frame) page faults: 565129
+	Voluntary context switches: 8
+	Involuntary context switches: 24300
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 224
+	File system outputs: 712920
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

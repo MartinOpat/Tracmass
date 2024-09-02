@@ -86,7 +86,7 @@
 /
 
 &INIT_WRITE_TRAJ
-     write_frec    = 4     ! 1 = write at time intervals of gcm datasets (each ints)
+     write_frec    = 5     ! 1 = write at time intervals of gcm datasets (each ints)
                            ! 2 = write at each time iteration
                            ! 3 = write each spatial grid-crossing
                            ! 4 = write all the time steps
@@ -116,7 +116,7 @@
      														   ! = 3 Each particle reflects air/water mass/volume at seeding.
      														   !     set by partQuant in m3 or kg per particle
 
-      partquant      = 950000,          ! particles/gridcell or m3s-1/particle or m3/particle
+      partquant      = 5000000,          ! particles/gridcell or m3s-1/particle or m3/particle
       loneparticle   = 0, 				 ! start only one trajectory for debugging
       seedtype       = 1,				   ! = 1 seed using ist,jst,kst (below)
           		      					     ! = 2 seed using file with start positions

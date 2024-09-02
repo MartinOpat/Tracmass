@@ -2,6 +2,7 @@
 
 # Define arrays with the vertex indices
 partquant=(1500 3500 7500 17000 37000 85000 190000 420000 950000 2200000 5000000)
+# partquant=(950000 2200000 5000000)  # Leftover
 
 # Output directory for the log files
 output_dir="./output_logs"
