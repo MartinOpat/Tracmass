@@ -2,8 +2,8 @@
               TRACMASS Lagrangian off-line particle tracking 
  ===============================================================================
  
- Start date  : 2024-09-08
- Start time  : 13:36:41
+ Start date  : 2024-09-17
+ Start time  : 09:47:28
  
  -------------------------------------------------------------------------------
  
@@ -32,7 +32,7 @@
  Length of run in timesteps   :     25
  Number of seeding timesteps  :      1
  Time integration scheme      : regular time step scheme
- Steps between two GCM fields :     10
+ Steps between two GCM fields :    100
  
  -------------------------------------------------------------------------------
  t-step        run        out        err        tot                 model date
@@ -70,6 +70,6 @@
  -------------------------------------------------------------------------------
  
  ===============================================================================
- End date  : 2024-09-08
- End time  : 13:36:54
+ End date  : 2024-09-17
+ End time  : 09:48:00
  ===============================================================================

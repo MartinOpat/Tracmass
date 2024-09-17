@@ -57,7 +57,7 @@
                                                         ! if ncgcm_unit = 5, then ngcm_step = 3 means 3 months
      ngcm_unit      = 4,                                ! units of ngcm
                                                         !
-     iter           = 10,                              ! number of subcycles between time levels                                                             ! stopped
+     iter           = 100,                              ! number of subcycles between time levels                                                             ! stopped
 /
 
 &INIT_START_DATE
